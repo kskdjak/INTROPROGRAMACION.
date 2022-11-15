@@ -1,3 +1,5 @@
+package TrabajoClases;
+
 import java.util.Scanner;
 
 /**

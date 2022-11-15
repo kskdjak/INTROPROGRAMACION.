@@ -1,3 +1,5 @@
+package ClasesProgramacion;
+
 public class OperadorLogico {
     public static void main(String[] args) {
         System.out.println("Prueba de operadores logicos o booleanos");

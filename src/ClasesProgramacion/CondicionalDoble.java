@@ -1,9 +1,8 @@
+package ClasesProgramacion;
+
 import java.util.Scanner;
 
-/**
- * Program para determnar si una persona es mayor de edad
- */
-public class CondicionalSimple {
+public class CondicionalDoble {
     public static void main(String[] args) {
         Scanner teclado=new Scanner(System.in);
         System.out.println("Programa para determinar mayoria de edad");
@@ -13,6 +12,9 @@ public class CondicionalSimple {
         if (evaluacion) {
             System.out.println("Eres mayor de edad");
             System.out.println("Estas casi listo para ir a la universidad");
+        }else {
+            System.out.println("Aun eres menor de edad");
         }
+
     }
 }

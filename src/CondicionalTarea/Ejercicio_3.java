@@ -1,3 +1,5 @@
+package CondicionalTarea;
+
 import java.util.Scanner;
 
 /**

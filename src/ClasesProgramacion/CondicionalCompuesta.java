@@ -1,3 +1,5 @@
+package ClasesProgramacion;
+
 import java.util.Scanner;
 
 public class CondicionalCompuesta {
