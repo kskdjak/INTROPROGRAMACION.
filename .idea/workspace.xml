@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed07588-d674-422c-a327-ebc760d9859e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/repeticion_while/TablaMultiplicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repeticion_while/SumaPares.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CondicionalAnidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClasesProgramacion/CondicionalAnidad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CondicionalCompuesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClasesProgramacion/CondicionalCompuesta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CondicionalDoble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClasesProgramacion/CondicionalDoble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CondicionalSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClasesProgramacion/CondicionalSimple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Condicional_tarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CondicionalTarea/Condicional_tarea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CondicionalTarea/Ejercicio_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CondicionalTarea/Ejercicio_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CondicionalTarea/Ejercicio_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OperadorLogico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClasesProgramacion/OperadorLogico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SleccionSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClasesProgramacion/SleccionSwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwitchArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabajoClases/SwitchArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repeticion_while/TablaMultiplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repeticion_while/TablaMultiplicacion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
