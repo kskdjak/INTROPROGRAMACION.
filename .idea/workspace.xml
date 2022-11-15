@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed07588-d674-422c-a327-ebc760d9859e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CondicionalAnidad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CondicionalCompuesta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CondicionalDoble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CondicionalSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OperadorLogico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SleccionSwitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwitchArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Condicional_tarea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +37,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="proyecto" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="SwitchArea" />
+}</component>
+  <component name="RunManager" selected="Application.Ejercicio_5">
+    <configuration name="Ejercicio_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicio_5" />
       <module name="Proyecto" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="proyecto" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Condicional_tarea" />
+      <module name="Proyecto" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.proyecto" />
+      <item itemvalue="Application.Ejercicio_5" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Ejercicio_5" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
