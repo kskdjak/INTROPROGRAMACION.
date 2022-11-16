@@ -5,7 +5,7 @@ package CondicionalTarea; /**
 
 import java.util.Scanner;
 
-public class Condicional_tarea {
+public class Ejercicio_2 {
     public static void main(String[] args) {
         Scanner teclado=new Scanner(System.in);
         System.out.println("Ingrese el dia");

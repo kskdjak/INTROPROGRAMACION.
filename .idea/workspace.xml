@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed07588-d674-422c-a327-ebc760d9859e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/repeticion_while/SumaPares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CondicionalTarea/Ejercicio_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CondicionalTarea/Ejercicio_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CondicionalTarea/Ejercicio_8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repeticion_while/TablaMultiplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repeticion_while/TablaMultiplicacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CondicionalTarea/Condicional_tarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CondicionalTarea/Ejercicio_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repeticion_while/SumaPares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repeticion_while/SumaPares.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
   <component name="RunManager">
@@ -53,7 +57,7 @@
       </method>
     </configuration>
     <configuration name="proyecto" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="CondicionalTarea.Condicional_tarea" />
+      <option name="MAIN_CLASS_NAME" value="CondicionalTarea.Ejercicio_2" />
       <module name="Proyecto" />
       <method v="2">
         <option name="Make" enabled="true" />

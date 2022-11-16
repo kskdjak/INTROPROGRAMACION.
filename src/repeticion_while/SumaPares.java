@@ -8,7 +8,7 @@ public class SumaPares {
         System.out.println("Suma de numeros pares");
         int suma_pares=0;
         int num=1;
-        while (num<=100){
+        while (num>=100){
             if (num%2==0){
                 suma_pares=suma_pares+num;
             }
