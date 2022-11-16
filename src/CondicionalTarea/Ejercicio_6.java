@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Ejercicio_6 {
     public static void main(String[] args) {
         Scanner teclado=new Scanner(System.in);
-        System.out.println("ingrese el tiempo");
+        System.out.println("ingrese el tiempo en minutos");
         int tiempo= teclado.nextInt();
         int dias=0;
         int horas=0;
