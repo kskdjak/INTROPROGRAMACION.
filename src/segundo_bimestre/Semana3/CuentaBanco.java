@@ -12,7 +12,7 @@ public class CuentaBanco {
         int interruptor=1;
         for (int indice = 0; indice <= cuenta.length; indice++) {
             System.out.println("Ingrese el numero de cuenta que desea buscar");
-           int cuent= teclado.nextInt();
+            int cuent= teclado.nextInt();
             if (cuenta[indice]==cuent){
                 System.out.println("Ingrese las opciones que desea");
                 System.out.println("Ingrese 1 si desea hacer un deposito");
@@ -39,7 +39,6 @@ public class CuentaBanco {
                                 int ret=saldo[indice]-retiro;
                                 System.out.println("Su saldo actual es: "+ret);
                             }
-
                             break;
                         case 3:
                             System.out.println("Consulta de saldo");
@@ -48,6 +47,7 @@ public class CuentaBanco {
                             break;
                         case 4:
                             System.out.println("Gracias por preferirnos");
+                            interruptor=0;
                             break;
                     }
                 }
