@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed07588-d674-422c-a327-ebc760d9859e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/segundo_bimestre/semana4/EscrituraMatriz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/segundo_bimestre/semana4/Matriz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/segundo_bimestre/semana4/SumaMatriz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundo_bimestre/ArregloTiempo/Burbuja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundo_bimestre/ArregloTiempo/BurbujaMejorada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundo_bimestre/ArregloTiempo/Insercion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundo_bimestre/ArregloTiempo/Seleccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundo_bimestre/ArregloTiempo/ShellShort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/segundo_bimestre/Semana3/CuentaBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/segundo_bimestre/Semana3/CuentaBanco.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
