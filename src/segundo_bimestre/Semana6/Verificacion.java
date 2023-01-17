@@ -76,7 +76,7 @@ public class Verificacion {
     }
     public void ingresar_numeros(){
         Scanner teclado=new Scanner(System.in);
-        System.out.println("Ingrese el primer numero");
+        System.out.println("Ingrese el  numero");
         num_a_verificar= teclado.nextInt();
     }
 }
