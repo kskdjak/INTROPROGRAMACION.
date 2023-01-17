@@ -22,8 +22,8 @@ public class AreaFigura {
             case 1:
                 System.out.println("Ingresar el valor del radio");
                 double radio= teclado.nextInt();
-                double area=obtener_area_circuferencia(radio);
-                System.out.println("El area es: "+area);
+                //double area=obtener_area_circuferencia(radio);
+                //System.out.println("El area es: "+area);
                 break;
         }
     }
@@ -51,6 +51,7 @@ public class AreaFigura {
 
     public double obtener_area_de_un_cilindro(){
 
+        return 0;
     }
 
 
