@@ -7,6 +7,12 @@ import java.util.Scanner;
  */
 public class Verificacion {
     int num_a_verificar;
+
+    /**
+     * Metodo para verificar si el numero es primo
+     * @param num_a_verificar
+     * @return
+     */
     public boolean verificar_primo(int num_a_verificar) {
         int contador_divisor = 0;
         for (int contador = 1; contador <= num_a_verificar; contador++) {
@@ -20,6 +26,11 @@ public class Verificacion {
             return false;
     }
 
+    /**
+     * Metodo para verificar si el numero ingresado es par o impar
+     * @param num_a_verificar
+     * @return
+     */
     public boolean verificar_par(int num_a_verificar) {
         if (num_a_verificar % 2 == 0) {
             return true;
@@ -28,15 +39,6 @@ public class Verificacion {
     }
 
     public static void main(String[] args) {
-       // Verificacion mivaraiable = new Verificacion();
-        //if (mivaraiable.verificar_primo(5) == true)
-         //   System.out.println("Si es primo");
-        //else
-          //  System.out.println("No es primo ");
-        //if (mivaraiable.verificar_par(7) == true)
-           // System.out.println("Si es par");
-        //else
-        //  System.out.println("Es impar");
         Verificacion mivariable=new Verificacion();
         mivariable.ejecutar();
     }
