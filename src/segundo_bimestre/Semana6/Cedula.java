@@ -22,9 +22,29 @@ public class Cedula {
 
     // Método 1 para validar una cédula ecuatoriana
     public static String validateCedula(String cedula) {
-        // Implementar la lógica de validación de cédula
-        // ...
-        // Si la cédula es válida, devolver "válida"
-        // Si la cédula es inválida, devolver "inválida"
+        int[] factors = { 2, 1, 2, 1, 2, 1, 2, 1, 2 };
+        int sum = 0;
+        int expectedCheckDigit;
+
+        // Validar que la cédula tenga 10 dígitos
+        if (cedula.length() != 10) {
+            return "inválida";
+        }
+
+        // Calcular el dígito verificador esperado
+        for (int i = 0; i < cedula.length() - 1; i++) {
+            int digit = Integer.parseInt(cedula.substring(i, i + 1));
+            sum += digit * factors[i];
+        }
+
+        expectedCheckDigit = (10 - (sum % 10)) % 10;
+
+        // Comparar el dígito verificador esperado con el actual
+        int actualCheckDigit = Integer.parseInt(cedula.substring(9, 10));
+        if (expectedCheckDigit == actualCheckDigit) {
+            return "válida";
+        } else {
+            return "inválida";
+        }
     }
 }
