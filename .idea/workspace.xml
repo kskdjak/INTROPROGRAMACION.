@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed07588-d674-422c-a327-ebc760d9859e" name="Changes" comment="Trabajo en clases">
+      <change afterPath="$PROJECT_DIR$/src/segundo_bimestre/Semana6/gui/SumaNumero.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundo_bimestre/Semana6/gui/SumaNumero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundo_bimestre/Semana6/gui/ValidacionCedula.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segundo_bimestre/Semana6/gui/ValidacionCedula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/segundo_bimestre/Semana6/Cedula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/segundo_bimestre/Semana6/Cedula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/segundo_bimestre/Semana6/Cedula.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
