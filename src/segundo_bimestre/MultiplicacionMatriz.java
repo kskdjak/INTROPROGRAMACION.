@@ -41,6 +41,7 @@ public class MultiplicacionMatriz {
                     for (int colB = 0; colB < colsa; colB++) {
                         matrizC[fi][colA] += matrizA[fi][colB] * matrizB[colB][colA];
                     }
+                    System.out.println(matrizC[fi][colA]+" ");
                 }
             }
             System.out.println("Resultado:");

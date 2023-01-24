@@ -42,9 +42,18 @@ public class SumaNumero {
         btn_dividir.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                double divicion=Double.parseDouble(txt_n1.getText())
-                        /Double.parseDouble(txt_n2.getText());
-                lbl_resultado.setText(String.valueOf(divicion));
+                double n1=0;
+                double n2=0;
+                double divicion=0;
+                 try{
+                     n1=Double.parseDouble(txt_n1.getText());
+                     n2=Double.parseDouble(txt_n2.getText());
+                     divicion=n1/n2;
+                     lbl_resultado.setText(String.valueOf(divicion));
+                 }catch (Exception error){
+                     String mesange="ERROR";
+                     lbl_resultado.setText(String.valueOf(mesange));
+                 }
             }
         });
     }
