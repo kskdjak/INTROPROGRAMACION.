@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed07588-d674-422c-a327-ebc760d9859e" name="Changes" comment="Trabajo en clases">
-      <change afterPath="$PROJECT_DIR$/src/ProyectoFinal_B2.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProyectoFinal_B2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/segundo_bimestre/semana7/ManejoExcepcion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Borradores/Prueba.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Borradores/Prueba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Imagenes/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/borrador.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/borrador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/segundo_bimestre/MultiplicacionMatriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/segundo_bimestre/MultiplicacionMatriz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/segundo_bimestre/Semana6/gui/SumaNumero.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/segundo_bimestre/Semana6/gui/SumaNumero.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/segundo_bimestre/Semana6/gui/SumaNumero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/segundo_bimestre/Semana6/gui/SumaNumero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProyectoFinal_B2.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProyectoFinal_B2.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProyectoFinal_B2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProyectoFinal_B2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,25 +41,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "97",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "284",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH&quot;: &quot;97&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;204&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="segundo_bimestre" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\IdeaProjects\Proyecto\src\Imagenes" />
     </key>
   </component>
   <component name="RunManager">
@@ -93,11 +102,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProyectoFinal_B2" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="BUNDLED" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ProyectoFinal_B2" />
+      <module name="Proyecto" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.DivisoresNumero" />
       <item itemvalue="Application.proyecto" />
       <item itemvalue="Application.Ejercicio_5" />
       <item itemvalue="Application.Matriz" />
+      <item itemvalue="Application.ProyectoFinal_B2" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -145,6 +164,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Proyecto$ProyectoFinal_B2.ic" NAME="ProyectoFinal_B2 Coverage Results" MODIFIED="1674680434361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Proyecto$PotenciaMatriz.ic" NAME="PotenciaMatriz Coverage Results" MODIFIED="1673202926868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>segundo_bimestre.semana4.*</FILTER>
     </SUITE>
