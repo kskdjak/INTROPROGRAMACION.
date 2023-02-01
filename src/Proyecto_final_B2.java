@@ -2,40 +2,41 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.ComponentAdapter;
-import java.awt.event.ComponentEvent;
 
-public class borrador {
-    private JPanel panelrpincipal;
-    private JTextField txt_fil2;
-    private JTextField txt_col2;
-    private JButton crear;
-    private JTable tbl_m1;
-    private JTable table2;
-    private JTable table3;
-    private JButton mul;
+public class Proyecto_final_B2 {
     private JTextField fila1;
     private JTextField col1;
-    private JLabel cordena;
+    private JTextField txt_fil2;
+    private JTextField txt_col2;
+    private JTable tbl_m1;
+    private JTable table2;
     private JTable procedi;
+    private JTable table3;
+    private JButton crear;
+    private JButton mul;
+    private JPanel panel_principal;
+    private JLabel cordena;
+    private JButton Limpiar;
+    private JButton salir;
 
-    public borrador() {
-
+    public Proyecto_final_B2() {
         crear.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (col1.getText().equals(txt_fil2.getText())){
-                    int fila= Integer.valueOf(fila1.getText());
-                    int  col = Integer.valueOf(col1.getText());
-                    DefaultTableModel moderl= (DefaultTableModel) tbl_m1.getModel();
+                if (col1.getText().equals(txt_fil2.getText())) {
+                    int fila = Integer.valueOf(fila1.getText());
+                    int col = Integer.valueOf(col1.getText());
+                    DefaultTableModel moderl = (DefaultTableModel) tbl_m1.getModel();
                     moderl.setRowCount(fila);
                     moderl.setColumnCount(col);
 
-                    int fila2= Integer.valueOf(txt_fil2.getText());
-                    int  col2 = Integer.valueOf(txt_col2.getText());
-                    DefaultTableModel moderl1= (DefaultTableModel) table2.getModel();
+                    int fila2 = Integer.valueOf(txt_fil2.getText());
+                    int col2 = Integer.valueOf(txt_col2.getText());
+                    DefaultTableModel moderl1 = (DefaultTableModel) table2.getModel();
                     moderl1.setRowCount(fila2);
                     moderl1.setColumnCount(col2);
+                }else {
+                    JOptionPane.showMessageDialog(null,"Es imposible multiplicar entre si tales matrices, así que\n el número de columnas de la matriz A no\n equivale al número de filas de la matriz B.");
                 }
             }
         });
@@ -71,7 +72,7 @@ public class borrador {
                             S=0;
                             pro=" ";
                             for ( r = 0; r < ColA; r++) {
-                                 pro =pro+tbl_m1.getValueAt(i, r).toString() +"x"+ table2.getValueAt(r, j).toString()+"+";
+                                pro +=tbl_m1.getValueAt(i, r).toString() +"x"+ table2.getValueAt(r, j).toString()+ "+";
                                 S=S+Integer.parseInt(tbl_m1.getValueAt(i,r).toString())*Integer.parseInt(table2.getValueAt(r,j).toString());
                             }
                             table3.setValueAt(S+"",i,j);
@@ -91,12 +92,68 @@ public class borrador {
                 }
             }
         });
+        Limpiar.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                fila1.setText(" ");
+                col1.setText(" ");
+                txt_fil2.setText(" ");
+                txt_col2.setText(" ");
+                DefaultTableModel model1=(DefaultTableModel) table2.getModel();
+                model1.setRowCount(0);
+                model1.setColumnCount(0);
+                String matriza_vacia[][]=new String[0][0];
+                for (int i = 0; i < 0; i++) {
+                    for (int j = 0; j < 0; j++) {
+                        table2.setValueAt(matriza_vacia[i][j],i,j);
+                    }
+                }
+                DefaultTableModel model2=(DefaultTableModel) tbl_m1.getModel();
+                model2.setRowCount(0);
+                model2.setColumnCount(0);
+                String matrizb_vacia[][]=new String[0][0];
+                for (int i = 0; i < 0; i++) {
+                    for (int j = 0; j < 0; j++) {
+                        table2.setValueAt(matrizb_vacia[i][j],i,j);
+                    }
+                }
+                DefaultTableModel model_proce=(DefaultTableModel) procedi.getModel();
+                model_proce.setRowCount(0);
+                model_proce.setColumnCount(0);
+                String matrizc_vacia[][]=new String[0][0];
+                for (int i = 0; i < 0; i++) {
+                    for (int j = 0; j < 0; j++) {
+                        table2.setValueAt(matrizc_vacia[i][j],i,j);
+                    }
+                }
+                DefaultTableModel model_resul=(DefaultTableModel) table3.getModel();
+                model_resul.setRowCount(0);
+                model_resul.setColumnCount(0);
+                String matrizd_vacia[][]=new String[0][0];
+                for (int i = 0; i < 0; i++) {
+                    for (int j = 0; j < 0; j++) {
+                        table2.setValueAt(matrizd_vacia[i][j],i,j);
+                    }
+                }
+            }
+        });
+        salir.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }
+        });
     }
 
     public static void main(String[] args) {
+        ProyectoFinal_B2 obj=new ProyectoFinal_B2();
+        obj.iniciar_proyecto_B2();
+    }
+    public void iniciar_proyecto_B2(){
         JFrame inicio=new JFrame("Multiplicacion Matriz");
-        inicio.setContentPane(new borrador().panelrpincipal);
+        inicio.setContentPane(new Proyecto_final_B2().panel_principal);
         inicio.pack();
         inicio.setVisible(true);
     }
 }
+
