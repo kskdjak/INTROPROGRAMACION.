@@ -24,71 +24,85 @@ public class borrador {
         crear.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (col1.getText().equals(txt_fil2.getText())){
-                    int fila= Integer.valueOf(fila1.getText());
-                    int  col = Integer.valueOf(col1.getText());
-                    DefaultTableModel moderl= (DefaultTableModel) tbl_m1.getModel();
-                    moderl.setRowCount(fila);
-                    moderl.setColumnCount(col);
+                try {
+                    if (col1.getText().equals(txt_fil2.getText())){
+                        int fila= Integer.valueOf(fila1.getText());
+                        int  col = Integer.valueOf(col1.getText());
+                        DefaultTableModel moderl= (DefaultTableModel) tbl_m1.getModel();
+                        moderl.setRowCount(fila);
+                        moderl.setColumnCount(col);
 
-                    int fila2= Integer.valueOf(txt_fil2.getText());
-                    int  col2 = Integer.valueOf(txt_col2.getText());
-                    DefaultTableModel moderl1= (DefaultTableModel) table2.getModel();
-                    moderl1.setRowCount(fila2);
-                    moderl1.setColumnCount(col2);
+                        int fila2= Integer.valueOf(txt_fil2.getText());
+                        int  col2 = Integer.valueOf(txt_col2.getText());
+                        DefaultTableModel moderl1= (DefaultTableModel) table2.getModel();
+                        moderl1.setRowCount(fila2);
+                        moderl1.setColumnCount(col2);
+                    }
+                }catch (Exception eror){
+                    JOptionPane.showMessageDialog(null,"Porfavor ingrese solo numeros");
                 }
+
             }
         });
         mul.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (col1.getText().equals(txt_fil2.getText())){
-                    int fila= Integer.valueOf(fila1.getText());
-                    int  col = Integer.valueOf(col1.getText());
-                    DefaultTableModel moderl= (DefaultTableModel) tbl_m1.getModel();
-                    moderl.setRowCount(fila);
-                    moderl.setColumnCount(col);
+                try {
+                    if (col1.getText().equals(txt_fil2.getText())){
+                        int fila= Integer.valueOf(fila1.getText());
+                        int  col = Integer.valueOf(col1.getText());
+                        DefaultTableModel moderl= (DefaultTableModel) tbl_m1.getModel();
+                        moderl.setRowCount(fila);
+                        moderl.setColumnCount(col);
 
-                    int fila2= Integer.valueOf(txt_fil2.getText());
-                    int  col2 = Integer.valueOf(txt_col2.getText());
-                    DefaultTableModel moderl1= (DefaultTableModel) table2.getModel();
-                    moderl1.setRowCount(fila2);
-                    moderl1.setColumnCount(col2);
-                    DefaultTableModel model3 = (DefaultTableModel) table3.getModel();
-                    int r, i, j;
-                    int S=0;
-                    String pro=" ";
-                    int FilaA= Integer.parseInt(fila1.getText());
-                    int ColA= Integer.parseInt(col1.getText());
-                    int FilaB= Integer.parseInt(txt_fil2.getText());
-                    int ColB = Integer.parseInt(txt_col2.getText());
-                    int matrizC[][]=new int [FilaA][ColB];
-                    model3.setRowCount(FilaA);
-                    model3.setColumnCount(ColB);
-                    String matriz_proce[][]=new String[FilaA][ColB];
-                    for ( i = 0; i < FilaA; i++) {
-                        for ( j = 0; j < ColB; j++) {
-                            S=0;
-                            pro=" ";
-                            for ( r = 0; r < ColA; r++) {
-                                 pro =pro+tbl_m1.getValueAt(i, r).toString() +"x"+ table2.getValueAt(r, j).toString()+"+";
-                                S=S+Integer.parseInt(tbl_m1.getValueAt(i,r).toString())*Integer.parseInt(table2.getValueAt(r,j).toString());
+                        int fila2= Integer.valueOf(txt_fil2.getText());
+                        int  col2 = Integer.valueOf(txt_col2.getText());
+                        DefaultTableModel moderl1= (DefaultTableModel) table2.getModel();
+                        moderl1.setRowCount(fila2);
+                        moderl1.setColumnCount(col2);
+                        DefaultTableModel model3 = (DefaultTableModel) table3.getModel();
+                        int r, i, j;
+                        int S=0;
+                        String pro=" ";
+                        int FilaA= Integer.parseInt(fila1.getText());
+                        int ColA= Integer.parseInt(col1.getText());
+                        int FilaB= Integer.parseInt(txt_fil2.getText());
+                        int ColB = Integer.parseInt(txt_col2.getText());
+                        int matrizC[][]=new int [FilaA][ColB];
+                        model3.setRowCount(FilaA);
+                        model3.setColumnCount(ColB);
+                        String matriz_proce[][]=new String[FilaA][ColB];
+                        String suma="+";
+                        for ( i = 0; i < FilaA; i++) {
+                            for ( j = 0; j < ColB; j++) {
+                                S=0;
+                                pro=" ";
+                                for ( r = 0; r < ColA; r++) {
+                                    if (j==ColB-1){
+                                        suma="";
+                                    }
+                                    pro =pro+tbl_m1.getValueAt(i, r).toString() +"x"+ table2.getValueAt(r, j).toString()+suma;
+                                    S=S+Integer.parseInt(tbl_m1.getValueAt(i,r).toString())*Integer.parseInt(table2.getValueAt(r,j).toString());
+                                }
+                                table3.setValueAt(S+"",i,j);
+                                matriz_proce[i][j]=pro;
+                                System.out.println(pro);
+                                System.out.println(S);
                             }
-                            table3.setValueAt(S+"",i,j);
-                            matriz_proce[i][j]=pro;
-                            System.out.println(pro);
-                            System.out.println(S);
+                        }
+                        DefaultTableModel proced=(DefaultTableModel) procedi.getModel();
+                        proced.setRowCount(matriz_proce.length);
+                        proced.setColumnCount(matriz_proce[0].length);
+                        for (int k = 0; k < matriz_proce.length; k++) {
+                            for (int l = 0; l < matriz_proce[0].length; l++) {
+                                procedi.setValueAt(matriz_proce[k][l],k,l);
+                            }
                         }
                     }
-                    DefaultTableModel proced=(DefaultTableModel) procedi.getModel();
-                    proced.setRowCount(matriz_proce.length);
-                    proced.setColumnCount(matriz_proce[0].length);
-                    for (int k = 0; k < matriz_proce.length; k++) {
-                        for (int l = 0; l < matriz_proce[0].length; l++) {
-                            procedi.setValueAt(matriz_proce[k][l],k,l);
-                        }
-                    }
+                }catch (Exception error){
+                    JOptionPane.showMessageDialog(null,"Error corrigalo");
                 }
+
             }
         });
     }
