@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3ed07588-d674-422c-a327-ebc760d9859e" name="Changes" comment="Trabajo en clases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProyectoFinal_B2.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProyectoFinal_B2.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Proyecto_final_B2.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proyecto_final_B2.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Proyecto_final_B2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proyecto_final_B2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/borrador.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/borrador.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/borrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/borrador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/segundo_bimestre/MultiplicacionMatriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/segundo_bimestre/MultiplicacionMatriz.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+    "settings.editor.selected.configurable": "preferences.keymap"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [

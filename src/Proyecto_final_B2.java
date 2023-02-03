@@ -12,14 +12,15 @@ public class Proyecto_final_B2 {
     private JTable tbl_m2;
     private JTable tbl_proce;
     private JTable tbl_result;
-    private JButton crear;
-    private JButton mul;
+    private JButton btn_crear;
+    private JButton btn_mul;
     private JPanel panel_principal;
-    private JButton Limpiar;
-    private JButton salir;
+    private JButton btn_Limpiar;
+    private JButton btn_salir;
 
     public Proyecto_final_B2() {
-        crear.addActionListener(new ActionListener() {
+        btn_mul.setEnabled(false);
+        btn_crear.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
@@ -35,9 +36,11 @@ public class Proyecto_final_B2 {
                         DefaultTableModel moderl1 = (DefaultTableModel) tbl_m2.getModel();
                         moderl1.setRowCount(fila2);
                         moderl1.setColumnCount(col2);
+                        btn_mul.setEnabled(true);
                     }else {
-                        JOptionPane.showMessageDialog(null,"Es imposible multiplicar entre si tales matrices, así que\n" +
-                                " el número de columnas de la matriz A no\n equivale al número de filas de la matriz B.");
+                        JOptionPane.showMessageDialog(null,"Es imposible multiplicar entre si tales " +
+                                "matrices, así que\n" + " el número de columnas de la matriz A no\n equivale al número de filas" +
+                                " de la matriz B.");
                     }
                 }catch (Exception error){
                     JOptionPane.showMessageDialog(null,"Porfavor verifique los datos");
@@ -45,7 +48,7 @@ public class Proyecto_final_B2 {
 
             }
         });
-        mul.addActionListener(new ActionListener() {
+        btn_mul.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
@@ -79,16 +82,15 @@ public class Proyecto_final_B2 {
                                 S=0;
                                 pro=" ";
                                 for ( r = 0; r < ColA; r++) {
-                                    if (r==ColB-1){
+                                    if (r==FilaB-1){
                                         suma="";
                                     }
                                     pro +=tbl_m1.getValueAt(i, r).toString() +"x"+ tbl_m2.getValueAt(r, j).toString()+ suma;
                                     S=S+Integer.parseInt(tbl_m1.getValueAt(i,r).toString())*Integer.parseInt(tbl_m2.getValueAt(r,j).toString());
+                                        suma="+";
                                 }
                                 tbl_result.setValueAt(S+"",i,j);
                                 matriz_proce[i][j]=pro;
-                                System.out.println(pro);
-                                System.out.println(S);
                             }
                         }
                         DefaultTableModel proced=(DefaultTableModel) tbl_proce.getModel();
@@ -106,9 +108,10 @@ public class Proyecto_final_B2 {
 
             }
         });
-        Limpiar.addActionListener(new ActionListener() {
+        btn_Limpiar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                btn_mul.setEnabled(false);
                 txt_fila1.setText("");
                 txt_col1.setText("");
                 txt_fila2.setText("");
@@ -151,7 +154,7 @@ public class Proyecto_final_B2 {
                 }
             }
         });
-        salir.addActionListener(new ActionListener() {
+        btn_salir.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.exit(0);

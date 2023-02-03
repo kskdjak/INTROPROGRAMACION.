@@ -78,7 +78,9 @@
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <enabled value="true"/>
+        </properties>
       </component>
       <component id="c0bcb" class="javax.swing.JButton" binding="crear">
         <constraints>
@@ -134,7 +136,9 @@
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <enabled value="false"/>
+        </properties>
       </component>
       <component id="11122" class="javax.swing.JTable" binding="table3" default-binding="true">
         <constraints>
@@ -142,7 +146,9 @@
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <enabled value="false"/>
+        </properties>
       </component>
       <component id="8bd87" class="javax.swing.JLabel">
         <constraints>

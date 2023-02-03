@@ -49,6 +49,7 @@ public class borrador {
             public void actionPerformed(ActionEvent e) {
                 try {
                     if (col1.getText().equals(txt_fil2.getText())){
+
                         int fila= Integer.valueOf(fila1.getText());
                         int  col = Integer.valueOf(col1.getText());
                         DefaultTableModel moderl= (DefaultTableModel) tbl_m1.getModel();
@@ -72,17 +73,20 @@ public class borrador {
                         model3.setRowCount(FilaA);
                         model3.setColumnCount(ColB);
                         String matriz_proce[][]=new String[FilaA][ColB];
-                        String suma="+";
                         for ( i = 0; i < FilaA; i++) {
                             for ( j = 0; j < ColB; j++) {
                                 S=0;
                                 pro=" ";
                                 for ( r = 0; r < ColA; r++) {
-                                    if (j==ColB-1){
+                                    String suma="+";
+                                    if (r==ColB-1){
                                         suma="";
                                     }
                                     pro =pro+tbl_m1.getValueAt(i, r).toString() +"x"+ table2.getValueAt(r, j).toString()+suma;
                                     S=S+Integer.parseInt(tbl_m1.getValueAt(i,r).toString())*Integer.parseInt(table2.getValueAt(r,j).toString());
+                                    if (r==0){
+                                        suma="+";
+                                    }
                                 }
                                 table3.setValueAt(S+"",i,j);
                                 matriz_proce[i][j]=pro;
